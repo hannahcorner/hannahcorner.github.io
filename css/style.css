@@ -1,7 +1,198 @@
+/*, *:before, *:after {
+  box-sizing: border-box;
+}*/
 
+html {
+  font-size: 30%;
+  margin-top: 5rem;
+}
 
 .container {
   background-color: white;
   height: 100vh;
   margin: 0 auto;
+  max-width: 90%;
+
+}
+
+body {
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+hr {
+  border-top: 5px solid #DD7F6B;
+  border-radius: 5px;
+  display: block;
+  max-width: 100%;
+}
+
+/*** typography ***/
+h1 {
+  font-family: "Brandon Grotesque";
+  font-size: 8.6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #DD7F6B;
+  float: left;
+  font-family: "Petrona";
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+h3 {
+  float: left;
+  font-family: "Petrona";
+  font-size: 2.2rem;
+}
+
+h4 {
+  /*border-bottom: 5px solid #DD7F6B;
+  border-radius: 5px;*/
+  font-family: "Brandon Grotesque";
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-decoration-color: #DD7F6B;
+  text-decoration-style: solid;
+  text-decoration-radius: 5px;
+  text-underline-position:
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+h5 {
+  color: #DD7F6B;
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Petrona";
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+/*** logo ***/
+.logo {
+  float: left;
+  padding: 1rem;
+
+}
+
+/*** buttons ***/
+.trippin-button {
+  color: white;
+  background: url(../images/trippin.png) center/cover;
+  border: 0;
+  font-family: "Brandon Grotesque";
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  padding: 20rem 20rem 20rem 20rem;
+  margin: 1rem;
+  max-width: 100%;
+}
+
+.busybus-button {
+  color: white;
+  background: url(../images/busybus.png) center/cover;
+  border: 0;
+  font-family: "Brandon Grotesque";
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  height: 242px;
+  margin: 1rem;
+  max-width: 100%;
+}
+
+.wastenauts-button {
+  color: white;
+  background: url(../images/wastenauts.png) center/cover;
+  border: 0;
+  font-family: "Brandon Grotesque";
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  height: 242px;
+  margin: 1rem;
+  max-width: 100%;
+}
+
+.view-more-button {
+  color: white;
+  background: url(../images/viewmore.png) center/cover;
+  border: 0;
+  font-family: "Brandon Grotesque";
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  height: 242px;
+  margin: 1rem;
+  max-width: 100%;
+}
+
+.project-description {
+  color: white;
+  font-family: "Petrona";
+  font-size: 1.6rem;
+  text-transform: lowercase;
+}
+
+.peach-button {
+  background-color: #DD7F6B;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 450;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}
+
+.white-button {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  color: #DD7F6B;
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 450;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}
+
+/*** footer ***/
+footer {
+  color: white;
+  background-image: url(../images/footerimage.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Brandon Grotesque";
+  font-size: 4rem;
+  height: 25%;
+  max-width: 100%;
+  padding-top: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
+}
+
+/*** case study ***/
+.My-role {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+}
+
+.Tools {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
 }
