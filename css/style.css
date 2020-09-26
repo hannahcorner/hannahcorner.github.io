@@ -1,9 +1,11 @@
-/*, *:before, *:after {
+*, *:before, *:after {
   box-sizing: border-box;
-}*/
+
+}
 
 html {
-  font-size: 30%;
+  display: block;
+  font-size: 10px;
   margin-top: 5rem;
 }
 
@@ -11,59 +13,64 @@ html {
   background-color: white;
   height: 100vh;
   margin: 0 auto;
-  max-width: 90%;
-
+  width: 90%;
 }
 
 body {
 }
 
 img {
-  max-width: 100%;
   display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  max-width: 100%;
 }
 
 hr {
   border-top: 5px solid #DD7F6B;
   border-radius: 5px;
-  display: block;
-  max-width: 100%;
+  width: 100%;
+}
+
+section {
 }
 
 /*** typography ***/
 h1 {
   font-family: "Brandon Grotesque";
-  font-size: 8.6rem;
+  font-size: 3.3rem;
   text-transform: uppercase;
 }
 
 h2 {
   color: #DD7F6B;
-  float: left;
   font-family: "Petrona";
-  font-size: 2.7rem;
+  font-size: 2rem;
   font-weight: bold;
+  margin-top: 3%
 }
 
 h3 {
-  float: left;
   font-family: "Petrona";
-  font-size: 2.2rem;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin-top: 1%;
+  margin-bottom: 7%;
 }
 
 h4 {
   /*border-bottom: 5px solid #DD7F6B;
   border-radius: 5px;*/
   font-family: "Brandon Grotesque";
-  font-size: 4rem;
+  font-size: 2.4rem;
   text-transform: uppercase;
   text-decoration-line: underline;
   text-decoration-color: #DD7F6B;
   text-decoration-style: solid;
-  text-decoration-radius: 5px;
-  text-underline-position:
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  margin-bottom: 3%;
+  margin-top: 5%;
 }
 
 h5 {
@@ -71,20 +78,33 @@ h5 {
   font-family: "Montserrat";
   font-size: 1.6rem;
   font-weight: bold;
+  margin-top: 2%;
   text-transform: uppercase;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 p {
   font-family: "Petrona";
   font-size: 1.6rem;
   line-height: 2.2rem;
+  margin-bottom: 5%;
 }
 
 /*** logo ***/
 .logo {
   float: left;
-  padding: 1rem;
-
+  max-width: 100%;
+  height: auto;
+  margin-right: 80%;
+  margin-bottom: 5%;
+  width: 20%;
 }
 
 /*** buttons ***/
@@ -93,11 +113,11 @@ p {
   background: url(../images/trippin.png) center/cover;
   border: 0;
   font-family: "Brandon Grotesque";
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  height: 20rem;
+  margin-bottom: 3%;
   text-transform: uppercase;
-  padding: 20rem 20rem 20rem 20rem;
-  margin: 1rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .busybus-button {
@@ -105,11 +125,11 @@ p {
   background: url(../images/busybus.png) center/cover;
   border: 0;
   font-family: "Brandon Grotesque";
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  height: 20rem;
+  margin-bottom: 3%;
   text-transform: uppercase;
-  height: 242px;
-  margin: 1rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .wastenauts-button {
@@ -117,11 +137,11 @@ p {
   background: url(../images/wastenauts.png) center/cover;
   border: 0;
   font-family: "Brandon Grotesque";
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  height: 20rem;
+  margin-bottom: 3%;
   text-transform: uppercase;
-  height: 242px;
-  margin: 1rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .view-more-button {
@@ -129,11 +149,12 @@ p {
   background: url(../images/viewmore.png) center/cover;
   border: 0;
   font-family: "Brandon Grotesque";
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  margin-bottom: 3%;
   text-transform: uppercase;
-  height: 242px;
-  margin: 1rem;
-  max-width: 100%;
+  height: 20rem;
+  margin-bottom: 3%;
+  width: 100%;
 }
 
 .project-description {
@@ -151,6 +172,7 @@ p {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 450;
+  margin-bottom: 5%;
   padding: 1rem 3rem;
   text-transform: uppercase;
 }
@@ -163,8 +185,20 @@ p {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 450;
+  margin: 3%;
   padding: 1rem 3rem;
   text-transform: uppercase;
+}
+
+.topnav {
+  float: right;
+  width: 20%;
+
+}
+
+.side-nave {
+  float: right;
+  width: 20%;
 }
 
 /*** footer ***/
@@ -173,17 +207,82 @@ footer {
   background-image: url(../images/footerimage.png);
   background-size: cover;
   background-position: center;
+  background-repeat: repeat;
+  display: block;
   font-family: "Brandon Grotesque";
-  font-size: 4rem;
-  height: 25%;
-  max-width: 100%;
-  padding-top: 20%;
+  font-size: 2.2rem;
+  padding: 5rem;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
 }
 
 a {
   color: white;
+  text-decoration: none;
+}
+
+ul li{
+  display: inline;
+}
+
+li {
+  margin: 3%;
+}
+
+.white-button {
+  display: block;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*** media queries ***/
+@media screen and (min-width: 769px){
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  html {
+    font-size: 17px;
+  }
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 5rem;
+    max-width: 50%;
+  }
+
+  .logo {
+    height: 80%;
+    margin-right: 10px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 70px;
+  }
+
+  .project-button {
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+  }
+
+  .Tools {
+    float:right;
+    margin: 1%;
+    width: 48%;
+  }
+  .My-role {
+    float:left;
+    margin: 1%;
+    width: 48%;
+  }
 }
 
 /*** case study ***/
@@ -195,4 +294,23 @@ a {
 .Tools {
   font-family: "Montserrat";
   font-size: 1.4rem;
+  margin-bottom: 3%;
+}
+
+.Project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*** home page ***/
+.peach-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me {
+  margin-bottom: 10%;
 }
