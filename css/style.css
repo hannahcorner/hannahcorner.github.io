@@ -16,9 +16,6 @@ html {
   width: 90%;
 }
 
-body {
-}
-
 img {
   display: block;
   height: auto;
@@ -33,9 +30,11 @@ img {
   border-color: #666666;
 }
 
+}
+
 hr {
-  border-top: 5px solid #DD7F6B;
-  border-radius: 5px;
+  border-bottom: 5px solid;
+  border-color:#DD7F6B; 
   width: 100%;
 }
 
@@ -242,23 +241,73 @@ p {
   transition-duration: 0.3s;
 }
 
+/* sidenav */
 
-
-/*** navigation ***/
-.topnav {
-  display: inline-flex;
-  float: right;
-
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: -20px;
+	  background-color: #AB6252;
+    overflow-x: hidden;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    transition: 0.5s;
 }
 
-.nav-links {
-  display: inline-block;
-  float: right;
+.sidenav a {
+    color: black;
+    font-size: 1.8rem;
+    font-family: "Montserrat";
+	  font-weight: 400;
+    display: block;
+    line-height: 2.4;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    transition: 0.3s;
+    white-space: nowrap;
 }
 
-#sideNavigation.sidenav {
-  display: inline-block;
-  float: right;
+.sidenav a:hover, .offcanvas a:focus {
+    color: white;
+    font-weight: 500;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.links p {
+	font-weight: 700;
+	line-height: 0;
+}
+
+.sidenav .closebtn {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 42px;
+}
+
+.nav {
+  font-size: 42px;
+	position: fixed;
+	right: 30px;
+	top: 90px;
+	border: none;
+	background: none;
+}
+
+button:focus {
+	outline:0;
+}
+
+.topnav a {
+    right: 0;
+    padding: 25px 30px;
+    position: fixed;
 }
 
 /*** footer ***/
@@ -312,7 +361,20 @@ li {
     width: 75%;
     margin: 0 auto;
   }
-
+  .sidenav {
+      height:300px;
+  }
+  .sidenav a {
+      color: black;
+      font-family: "Montserrat";
+      font-size: 1rem;
+  	  font-weight: 400;
+      display: block;
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      transition: 0.3s;
+      white-space: nowrap;
+  }
   h1 {
     font-size: 5rem;
   }
