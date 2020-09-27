@@ -39,6 +39,7 @@ section {
 
 /*** typography ***/
 h1 {
+  display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 3.3rem;
   text-transform: uppercase;
@@ -61,8 +62,7 @@ h3 {
 }
 
 h4 {
-  /*border-bottom: 5px solid #DD7F6B;
-  border-radius: 5px;*/
+  /*border-bottom: 6px solid #DD7F6B;*/
   font-family: "Brandon Grotesque";
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -75,6 +75,7 @@ h4 {
 
 h5 {
   color: #DD7F6B;
+  display: inline-block;
   font-family: "Montserrat";
   font-size: 1.6rem;
   font-weight: bold;
@@ -88,6 +89,7 @@ h6 {
   font-weight: bold;
   margin-top: 5%;
   margin-bottom: 5%;
+  text-transform: uppercase;
 }
 
 p {
@@ -107,15 +109,17 @@ p {
   width: 20%;
 }
 
-/*** buttons ***/
+/*** links ***/
 .trippin-button {
   color: white;
   background: url(../images/trippin.png) center/cover;
   border: 0;
+  display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 2.4rem;
-  height: 20rem;
+  padding: 7rem 1rem 7rem 1rem;
   margin-bottom: 3%;
+  text-align: center;
   text-transform: uppercase;
   width: 100%;
 }
@@ -124,10 +128,12 @@ p {
   color: white;
   background: url(../images/busybus.png) center/cover;
   border: 0;
+  display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 2.4rem;
-  height: 20rem;
+  padding: 7rem 1rem 7rem 1rem;
   margin-bottom: 3%;
+  text-align: center;
   text-transform: uppercase;
   width: 100%;
 }
@@ -136,10 +142,12 @@ p {
   color: white;
   background: url(../images/wastenauts.png) center/cover;
   border: 0;
+  display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 2.4rem;
-  height: 20rem;
+  padding: 7rem 1rem 7rem 1rem;
   margin-bottom: 3%;
+  text-align: center;
   text-transform: uppercase;
   width: 100%;
 }
@@ -148,12 +156,13 @@ p {
   color: white;
   background: url(../images/viewmore.png) center/cover;
   border: 0;
+  display: inline-block;
   font-family: "Brandon Grotesque";
-  font-size: 2.4rem;
+  font-size: 2rem;
+  padding: 7rem 1rem 7rem 1rem;
   margin-bottom: 3%;
+  text-align: center;
   text-transform: uppercase;
-  height: 20rem;
-  margin-bottom: 3%;
   width: 100%;
 }
 
@@ -161,44 +170,90 @@ p {
   color: white;
   font-family: "Petrona";
   font-size: 1.6rem;
+  margin-top: 3%;
   text-transform: lowercase;
 }
 
 .peach-button {
   background-color: #DD7F6B;
-  border: 0;
   border-radius: 5px;
+  border: 5px solid;
+  border-color: #DD7F6B;
   color: white;
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 450;
   margin-bottom: 5%;
-  padding: 1rem 3rem;
+  padding: 1.2rem 0rem 1.2rem 0rem;;
+  text-align: center;
   text-transform: uppercase;
+  width: 60%;
 }
 
 .white-button {
   background-color: white;
-  border: 0;
+  border: 5px solid;
+  border-color: white;
   border-radius: 5px;
   color: #DD7F6B;
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 450;
   margin: 3%;
-  padding: 1rem 3rem;
+  padding: 1.2rem 0rem 1.2rem 0rem;
   text-transform: uppercase;
+  width: 60%;
 }
 
+/*** hover effects ***/
+.trippin-button:hover {
+  background-color: #666666;
+  opacity: 0.7;
+}
+
+.busybus-button:hover {
+  opacity: 0.7;
+}
+
+.wastenauts-button:hover {
+  opacity: 0.7;
+}
+
+.view-more-button:hover {
+  opacity: 0.7;
+}
+
+.white-button:hover {
+  background: #AB6252;
+  color: white;
+  font-weight: bolder;
+  transition-duration: 0.3s;
+}
+
+.peach-button:hover {
+  background: white;
+  color: #DD7F6B;
+  font-weight: bolder;
+  transition-duration: 0.3s;
+}
+
+
+
+/*** navigation ***/
 .topnav {
+  display: inline-flex;
   float: right;
-  width: 20%;
 
 }
 
-.side-nave {
+.nav-links {
+  display: inline-block;
   float: right;
-  width: 20%;
+}
+
+#sideNavigation.sidenav {
+  display: inline-block;
+  float: right;
 }
 
 /*** footer ***/
@@ -211,7 +266,7 @@ footer {
   display: block;
   font-family: "Brandon Grotesque";
   font-size: 2.2rem;
-  padding: 5rem;
+  padding: 7rem 5rem 5rem 5rem;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -249,7 +304,7 @@ li {
     font-size: 17px;
   }
   .container {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
   }
 
@@ -257,7 +312,17 @@ li {
     font-size: 5rem;
   }
 
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
   .logo {
+    display: inline-block;
     height: 80%;
     margin-right: 10px;
     margin-bottom: 5%;
@@ -268,7 +333,7 @@ li {
 
   .project-button {
     float: left;
-    margin-right: 2%;
+    margin: 1%;
     width: 48%;
   }
 
@@ -281,6 +346,22 @@ li {
     float:left;
     margin: 1%;
     width: 48%;
+  }
+  .two-column {
+    float: left;
+    margin-right: 5%;
+    width: 45%;
+  }
+  .three-column {
+    float: left;
+    display: inline-block;
+    margin-right: 2.5%;
+    width: 30%;
+  }
+
+  .column-container {
+    display: inline-block;
+    width: 100%;
   }
 }
 
@@ -311,5 +392,10 @@ li {
 }
 
 .about-me {
+  display: inline-block;
   margin-bottom: 10%;
+}
+
+.projects {
+  margin-bottom: 3%;
 }
