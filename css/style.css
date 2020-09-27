@@ -28,6 +28,11 @@ img {
   max-width: 100%;
 }
 
+.needs-border {
+  border: 3px solid;
+  border-color: #666666;
+}
+
 hr {
   border-top: 5px solid #DD7F6B;
   border-radius: 5px;
