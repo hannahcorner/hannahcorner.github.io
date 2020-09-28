@@ -34,7 +34,7 @@ img {
 
 hr {
   border-bottom: 5px solid;
-  border-color:#DD7F6B; 
+  border-color:#DD7F6B;
   width: 100%;
 }
 
@@ -382,6 +382,15 @@ li {
   p {
     font-size: 1.1rem;
     line-height: 1.7rem;
+  }
+
+  .peach-button {
+    float: left;
+    width: 300px;
+  }
+
+  .white-button {
+    width: 300px;
   }
 
   .project-description {
