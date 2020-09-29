@@ -19,6 +19,7 @@ html {
 .hr {
   border-bottom: 5px solid #DD7F6B;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 img {
@@ -383,6 +384,11 @@ li {
 
 }
 
+/*** bio ***/
+.bio {
+  margin-top: 30px;
+}
+
 /*** media queries ***/
 @media screen and (min-width: 769px){
   .container {
@@ -479,5 +485,10 @@ li {
   .column-container {
     display: inline-block;
     width: 100%;
+  }
+  .bio {
+    margin-right: 27%;
+    margin-left: 27%;
+    width: 46%;
   }
 }
