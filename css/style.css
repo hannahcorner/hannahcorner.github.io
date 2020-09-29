@@ -200,6 +200,7 @@ p {
 }
 
 .white-button {
+  display: block;
   background-color: white;
   border: 5px solid;
   border-color: white;
@@ -208,7 +209,9 @@ p {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 450;
-  margin: 3%;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.2rem 0rem 1.2rem 0rem;
   text-transform: uppercase;
   width: 60%;
@@ -345,13 +348,6 @@ li {
   margin: 3%;
 }
 
-.white-button {
-  display: block;
-  margin: 5%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /*** case study ***/
 .My-role {
   font-family: "Montserrat";
@@ -428,9 +424,11 @@ li {
   }
 
   .peach-button {
+    font-size: 1rem;
     float: left;
-    margin-right: 500px;
-    width: 300px;
+    padding: .8rem 0rem .8rem 0rem;;
+    margin-right: 30px;
+    width: 200px;
   }
 
   .white-button {
