@@ -16,6 +16,11 @@ html {
   width: 90%;
 }
 
+.hr {
+  border-bottom: 5px solid #DD7F6B;
+  width: 100%;
+}
+
 img {
   display: block;
   height: auto;
@@ -33,8 +38,7 @@ img {
 }
 
 hr {
-  border-bottom: 5px solid;
-  border-color:#DD7F6B;
+  border-bottom: 5px solid #DD7F6B;
   width: 100%;
 }
 
@@ -317,10 +321,11 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
-  display: block;
+  display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 2.2rem;
   padding: 7rem 5rem 5rem 5rem;
+  margin-top: 5rem;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -344,6 +349,38 @@ li {
   margin: 5%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*** case study ***/
+.My-role {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+}
+
+.Tools {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  margin-bottom: 3%;
+}
+
+.Project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*** home page ***/
+.about-me {
+  display: inline-block;
+}
+
+.projects {
+  margin-bottom: 3%;
+}
+
+.all-projets {
+
 }
 
 /*** media queries ***/
@@ -386,13 +423,13 @@ li {
 
   .peach-button {
     float: left;
+    margin-right: 500px;
     width: 300px;
   }
 
   .white-button {
     width: 300px;
   }
-
   .project-description {
     font-size: 1rem;
   }
@@ -412,7 +449,11 @@ li {
     margin: 1%;
     width: 48%;
   }
-
+  .project-button-all {
+    float: left;
+    margin-right: 2.5%;
+    width: 30%;
+  }
   .Tools {
     float:right;
     margin: 1%;
@@ -439,39 +480,4 @@ li {
     display: inline-block;
     width: 100%;
   }
-}
-
-/*** case study ***/
-.My-role {
-  font-family: "Montserrat";
-  font-size: 1.4rem;
-}
-
-.Tools {
-  font-family: "Montserrat";
-  font-size: 1.4rem;
-  margin-bottom: 3%;
-}
-
-.Project-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-/*** home page ***/
-.peach-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-me {
-  display: inline-block;
-  margin-bottom: 10%;
-}
-
-.projects {
-  margin-bottom: 3%;
 }
