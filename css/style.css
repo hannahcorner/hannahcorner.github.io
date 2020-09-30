@@ -212,7 +212,7 @@ p {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 450;
-  margin: 5%;
+  margin: 2%;
   margin-left: auto;
   margin-right: auto;
   padding: 1.2rem 0rem 1.2rem 0rem;
@@ -326,13 +326,13 @@ footer {
   color: white;
   display: block;
   background-image: url(../images/footerimage.png);
-  background-size:contain;
+  background-size:cover;
   background-position: center;
   background-repeat:no-repeat;
   display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 2.2rem;
-  padding: 7rem 5rem 0rem 5rem;
+  padding: 7rem 5rem 5rem 5rem;
   margin-top: 4%;
   text-align: center;
   text-transform: uppercase;
@@ -355,9 +355,10 @@ li {
 .copyright {
   color: #F7CBC1;
   font-family: "Montserrat";
+  font-size: .7rem;
   text-transform: uppercase;
   margin-bottom: 0;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 /*** case study ***/
@@ -397,6 +398,13 @@ li {
 @media screen and (min-width: 769px){
   .container {
     width: 90%;
+  }
+  .peach-button {
+    width: 300px;
+  }
+
+  .white-button {
+    width: 300px;
   }
 }
 
@@ -441,6 +449,10 @@ li {
 
   .white-button {
     width: 300px;
+  }
+
+  footer {
+    background-size:contain;
   }
   .project-description {
     font-size: 1rem;
