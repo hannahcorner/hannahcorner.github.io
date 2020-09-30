@@ -324,15 +324,16 @@ button:focus {
 /*** footer ***/
 footer {
   color: white;
+  display: block;
   background-image: url(../images/footerimage.png);
-  background-size: cover;
+  background-size:contain;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat:no-repeat;
   display: inline-block;
   font-family: "Brandon Grotesque";
   font-size: 2.2rem;
   padding: 7rem 5rem 0rem 5rem;
-  margin-top: 5rem;
+  margin-top: 4%;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -352,7 +353,7 @@ li {
 }
 
 .copyright {
-  color: #DD7F6B;
+  color: #F7CBC1;
   font-family: "Montserrat";
   text-transform: uppercase;
   margin-bottom: 0;
@@ -381,10 +382,6 @@ li {
 /*** home page ***/
 .about-me {
   display: inline-block;
-}
-
-.projects {
-  margin-bottom: 3%;
 }
 
 .all-projets {
