@@ -39,7 +39,7 @@ img {
 }
 
 hr {
-  border-bottom: 5px solid #DD7F6B;
+  border-bottom: 10px solid #DD7F6B;
   width: 100%;
 }
 
@@ -97,9 +97,9 @@ h5 {
 }
 
 h6 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 5%;
   margin-bottom: 5%;
   text-transform: uppercase;
@@ -388,9 +388,10 @@ li {
 }
 
 .Project-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5rem;
   width: 50%;
 }
 
@@ -447,7 +448,15 @@ li {
   h1 {
     font-size: 5rem;
   }
-
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    margin-top: 9rem;
+  }
+  .smaller-margin {
+    margin-top: 5rem;
+  }
   p {
     font-size: 1.1rem;
     line-height: 1.7rem;
@@ -489,7 +498,8 @@ li {
   }
   .project-button-all {
     float: left;
-    margin-right: 2.5%;
+    margin-right: 3%;
+    margin-top: 3%;
     width: 30%;
   }
   .Tools {
