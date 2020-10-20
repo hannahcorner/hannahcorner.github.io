@@ -112,6 +112,7 @@ p {
   margin-bottom: 5%;
 }
 
+
 /*** logo ***/
 .logo {
   float: left;
@@ -387,12 +388,17 @@ li {
   margin-bottom: 3%;
 }
 
-.Project-image {
+.trippin-image {
   display: inline-block;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 5rem;
   width: 50%;
+}
+.busybus-image{
+  display: inline;
+  max-height: 50px;
+
 }
 
 /*** home page ***/
