@@ -70,7 +70,7 @@ h3 {
   font-size: 1.8rem;
   line-height: 2.2rem;
   margin-top: 1%;
-  margin-bottom: 7%;
+  margin-bottom: 2%;
 }
 
 h4 {
@@ -243,7 +243,7 @@ p {
   border-color: #DD7F6B;
   color: white;
   font-family: "Montserrat";
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 450;
   margin-bottom: 5%;
   margin-left: auto;
@@ -514,6 +514,10 @@ li {
 
   .white-button {
     width: 300px;
+  }
+
+  .next-button {
+    width: 400px;
   }
 
   footer {
