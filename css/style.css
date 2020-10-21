@@ -36,14 +36,15 @@ img {
   border-color: #666666;
 }
 
+.topmargin {
+  padding-top: 3%;
+}
+
 }
 
 hr {
   border-bottom: 10px solid #DD7F6B;
   width: 100%;
-}
-
-section {
 }
 
 /*** typography ***/
@@ -233,6 +234,30 @@ p {
   width: 60%;
 }
 
+.next-button {
+  display: block;
+  background-color: #DD7F6B;
+  background-size: 100%;
+  border-radius: 5px;
+  border: 5px solid;
+  border-color: #DD7F6B;
+  color: white;
+  font-family: "Montserrat";
+  font-size: .8rem;
+  font-weight: 450;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.2rem 0rem 1.2rem 0rem;;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 700px;
+  }
+
+i {
+  font-family:"FontAwesome";
+}
 /*** hover effects ***/
 .trippin-button:hover {
   background-color: #666666;
@@ -259,6 +284,13 @@ p {
 }
 
 .peach-button:hover {
+  background: white;
+  color: #DD7F6B;
+  font-weight: bolder;
+  transition-duration: 0.3s;
+}
+
+.next-button:hover {
   background: white;
   color: #DD7F6B;
   font-weight: bolder;
@@ -421,6 +453,10 @@ li {
     width: 90%;
   }
   .peach-button {
+    width: 300px;
+  }
+
+  .next-button {
     width: 300px;
   }
 

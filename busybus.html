@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Petrona">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" >
     <link rel="stylesheet" href="https://use.typekit.net/uod5gds.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="http://www.hannahcorner.com/favicon.png">
@@ -57,7 +58,7 @@
     </section>
 
     <div class="busybus-image">
-      <img src="images/busybus/main.png" alt="iphone with bus schedule app screen"/>
+      <img src="images/busybus/main.png" alt="iphone with bus schedule app screen" class="topmargin"/>
     </div>
 
   <!--Problem and Solution-->
@@ -79,17 +80,25 @@
   <h4>User research</h4>
     <div class="two-column">
         <p>I began my user research with a survey. I sent the survey to people that I know, but I made sure that the people were a variety of ages and genders. Those people made up most of the responses, but I also posted it on social media and in a slack channel with my fellow students. The very first question on the survey was if people had ever used a public bus system. Almost every single survey participant had. I think this is helpful to know because it gives more weight to these participants’ answers.</p>
+    </div>
+    <div class="two-column">
         <img src="images/busybus/graph1.png" alt="pie chart showing that 96% of survey participants have used a bus for public transport"/>
     </div>
   </section>
   <section class="column-container">
     <div class="two-column">
       <img src="images/busybus/graph2.png" alt="bar graph showing what users do not like about bus apps or websites"/>
+    </div>
+    <div class="two-column">
       <p>From my survey I learned that public transport users that currently use apps or websites really were missing ways to customize their app or website to their habits. You can see that in this chart, the inability to customize the app or website was overwhelmingly the most disliked
 part of the experience.</p>
     </div>
+  </section>
+  <section class="column-container">
     <div class="two-column">
         <p>This chart shows the other side of things. Once again overwhelmingly people like the apps and websites they’ve used because they could use it to easily plan their route and easily figure out when their bus will arrive.</p>
+    </div>
+    <div class="two-column">
         <img src="images/busybus/graph3.png" alt="bar graph showing what users do like about bus apps or websites"/>
     </div>
   </section>
@@ -137,16 +146,24 @@ part of the experience.</p>
   <h4>Iterations</h4>
     <div class="two-column">
         <p>Specifically I focused on the most complicated screen, the schedule. V. 1 looks fairly similar to what I had in my paper prototype. For V. 2, I got feedback that a map would improve the experience for visual users so I added one. I added the route destinations to make the bus lines more identifiable for users. However, I made sure the information on the schedule that pertains to those user stories dealing with which bus and when it will be at the stop was emphasized the most. That’s why they are a larger font.</p>
+    </div>
+    <div class="two-column">
         <img src="images/busybus/iteration1.png" alt="v1 of the app vs v2"/>
     </div>
-
+  </section>
+  <section class="column-container">
     <div class="two-column">
       <img src="images/busybus/iteration2.png" alt="v2 of the app vs v3 and bus schedule info"/>
+    </div>
+    <div class="two-column">
       <p>Just like in any project you might get thrown some more information after the design process has been started. I was given some more information about the BusyBus route data that led to Version 3. One of the main things was the direction toggle. I now had to account for 3 directions. To address this, I got rid of the toggle and color coded the directions instead. Another thing was route frequency. Including frequency and scheduled time seemed confusing so I replaced scheduled with frequency. The new data also mentioned Out of service buses. I didn’t want to clutter up the screen with those since by definition you can’t get on them so I decided to include those on another screen.</p>
     </div>
-
+  </section>
+  <section class="column-container">
     <div class="two-column">
         <p>I got more feedback on V3 that using colors to show bus direction wasn’t the most intuitive and that generally the bus icons add cognitive load to the screen. I think that feedback makes sense. Colorblind users or the brightness of a screen could affect the user’s ability to extract meaning from the colors. And without the color, the bus icons don’t really tell you anything. So for V4 I got rid of the color coded bus icons and used the arrow icon to show direction instead. These icons are more subtle, but I think that’s ok because bus direction isn’t the most important info when you also have the route destination. I did use the color red for the rerouted bus line, but there’s also text to back it up.</p>
+    </div>
+    <div class="two-column">
         <img src="images/busybus/iteration3.png" alt="v3 of the app vs v4 (current version)"/>
     </div>
   </section>
@@ -175,7 +192,11 @@ part of the experience.</p>
       </p>
     </section>
 
-
+    <!--Next Button-->
+          <a href="busybus.html" class="next-button">
+            Next Project: Trippin Case Study
+            <i class="fas fa-angle-right"></i>
+          </a>
 
     <!-- footer -->
       <footer>
