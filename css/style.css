@@ -159,7 +159,7 @@ p {
 
 .handy-button {
   color: white;
-  background: url(../images/viewmore.png) center/cover;
+  background: url(../images/handy.png) center/cover;
   border: 0;
   display: inline-block;
   font-family: brandon-grotesque,sans-serif;
@@ -285,6 +285,10 @@ i {
 }
 
 .wastenauts-button:hover {
+  opacity: 0.7;
+}
+
+.handy-button:hover {
   opacity: 0.7;
 }
 
@@ -448,6 +452,12 @@ li {
 
 }
 
+.handy-image{
+  display: inline;
+  max-height: 50px;
+
+}
+
 /*** home page ***/
 .about-me {
   display: inline-block;
@@ -583,6 +593,13 @@ li {
     display: inline-block;
     margin-right: 2.5%;
     width: 30%;
+  }
+
+  .four-column {
+    float: left;
+    display: inline-block;
+    margin-right: 1.25%;
+    width: 23%;
   }
 
   .column-container {
