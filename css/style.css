@@ -64,7 +64,7 @@ h1 {
 h2 {
   color: #DD7F6B;
   font-family: "Montserrat";
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-top: 3%
 }
@@ -96,7 +96,7 @@ h5 {
   color: #DD7F6B;
   display: inline-block;
   font-family: "Montserrat";
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-top: 2%;
   text-transform: uppercase;
@@ -297,7 +297,10 @@ p {
 
 i {
   font-family:"FontAwesome";
+  font-style: normal;
 }
+
+
 /*** hover effects ***/
 .trippin-button:hover {
   background-color: #666666;
@@ -412,6 +415,11 @@ button:focus {
     padding: 25px 30px;
     position: fixed;
 }
+
+.desktop-nav {
+  visibility: hidden;
+}
+
 
 /*** footer ***/
 footer {
@@ -530,6 +538,27 @@ li {
 }
 
 @media screen and (min-width: 1025px){
+
+  .desktop-nav a {
+    color: black;
+    float: right;
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 3rem;
+  }
+
+  .desktop-nav {
+    padding-bottom: 60px;
+    visibility: visible;
+  }
+
+  .desktop-nav a:hover {
+    color: #AB6252;
+    font-weight: 800;
+  }
+
   html {
     font-size: 17px;
   }
@@ -538,18 +567,10 @@ li {
     margin: 0 auto;
   }
   .sidenav {
-      height:300px;
+    visibility: hidden;
   }
-  .sidenav a {
-      color: black;
-      font-family: "Montserrat";
-      font-size: 1rem;
-  	  font-weight: 400;
-      display: block;
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      transition: 0.3s;
-      white-space: nowrap;
+  .topnav {
+    visibility: hidden;
   }
   h1 {
     font-size: 5rem;
